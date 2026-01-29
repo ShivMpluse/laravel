@@ -1,0 +1,7 @@
+[25-Oct-2025 08:00:59 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.32. in /home/sms9/public_html/vendor/composer/platform_check.php:26
+Stack trace:
+#0 /home/sms9/public_html/vendor/composer/autoload_real.php(25): require()
+#1 /home/sms9/public_html/vendor/autoload.php(22): ComposerAutoloaderInit65d0b869e4069a8c9014c0c9760f99ee::getLoader()
+#2 /home/sms9/public_html/public/index.php(14): require('/home/sms9/publ...')
+#3 {main}
+  thrown in /home/sms9/public_html/vendor/composer/platform_check.php on line 26
